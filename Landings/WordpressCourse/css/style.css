@@ -3,7 +3,7 @@ body {
 }
 .topBackground {
     height: 800px;
-    background-image: url('/img/TopBackground.png');
+    background-image: url('/Portfolio/Landings/WordpressCourse/img/TopBackground.png');
     background-attachment: fixed;
 }
 
@@ -303,7 +303,7 @@ body {
 /*-------------------*/
 .after {
     height: 447px;
-    background-image: url("/img/Afetr.png");
+    background-image: url("/Portfolio/Landings/WordpressCourse/img/Afetr.png");
 }
 
 .after h1 {
