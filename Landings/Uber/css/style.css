@@ -112,7 +112,7 @@ header {
     width: 100%;
     height: 799px;
     z-index: -1;
-    background-image: url("/img/TopBackground.png");
+    background-image: url("../img/TopBackground.png");
 }
 
 .top {
@@ -296,7 +296,7 @@ header {
 }
 
 .card1 {
-    background-image: url("/img/card1.png");
+    background-image: url("../img/card1.png");
     width: 320px;
     height: 280px;
 }
@@ -318,7 +318,7 @@ header {
 }
 
 .card2 {
-    background-image: url("/img/card2.png");
+    background-image: url("../img/card2.png");
     width: 320px;
     height: 280px;
 }
@@ -339,7 +339,7 @@ header {
 }
 
 .card3 {
-    background-image: url("/img/card3.png");
+    background-image: url("../img/card3.png");
     width: 320px;
     height: 280px;
 }
@@ -362,7 +362,7 @@ header {
 }
 
 .card4 {
-    background-image: url("/img/card4.png");
+    background-image: url("../img/card4.png");
     width: 320px;
     height: 280px;
 }
@@ -385,7 +385,7 @@ header {
 }
 
 .card5 {
-    background-image: url("/img/card5.png");
+    background-image: url("../img/card5.png");
     width: 320px;
     height: 280px;
 }
@@ -407,7 +407,7 @@ header {
 }
 
 .card6 {
-    background-image: url("/img/card6.png");
+    background-image: url("../img/card6.png");
     width: 320px;
     height: 280px;
 }
@@ -560,7 +560,7 @@ header {
 }
 
 .termsH2 li {
-    list-style-image: url("/img/check1.png");
+    list-style-image: url("../img/check1.png");
     font-size: 17px;
     font-weight: 300;
     font-stretch: normal;
@@ -595,7 +595,7 @@ header {
 }
 
 .termsH2-red li {
-    list-style-image: url("/img/check2.png");
+    list-style-image: url("../img/check2.png");
     font-size: 17px;
     font-weight: 300;
     font-stretch: normal;
@@ -618,7 +618,7 @@ header {
 
 .world {
     height: 717px;
-    background-image: url("/img/World.png");
+    background-image: url("../img/World.png");
     padding-top: 49px;
 }
 
