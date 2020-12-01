@@ -969,3 +969,30 @@ figure.effect-bubba:hover p {
 
 }
 
+.icon-badge {
+	width: 60px;
+	height: 60px;
+}
+
+.frontEndImg {
+	margin-bottom: 40px;
+	width: 250px;
+}
+
+.frontEndImg2 {
+	margin-bottom: 55px;
+	margin-top: 30px;
+	width: 120px;
+} 
+
+.frontEndImg3 {
+	margin-bottom: 60px;
+	margin-top: 45px;
+	width: 120px;
+} 
+
+.frontEndImg4 {
+	margin-bottom: 60px;
+	margin-top: 50px;
+	width: 150px;
+} 

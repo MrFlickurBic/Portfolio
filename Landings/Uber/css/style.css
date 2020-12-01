@@ -1,0 +1,715 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+header {
+    height: 151px;
+}
+
+.container {
+    height: 100%;
+}
+
+.nav_background {
+    height: 67px;
+    background-color: #212121;
+}
+
+.menu_nav {
+    height: 100%;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_item {
+    margin: 0;
+}
+
+.menu_link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.menu_link:hover {
+    text-decoration: none;
+}
+
+.header_background {
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.col-4 img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+
+.col-2 {
+    padding: 0;
+}
+
+.col-2-p {
+    width: 100%;
+    height: 11px;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    margin-top: 19px;
+}
+
+.col-2-phone {
+    width: 100%;
+    height: 16px;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.btn-top {
+    width: 172px;
+    height: 46px;
+    text-transform: uppercase;
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 19px;
+}
+
+.top_background {
+    position: absolute;
+    top: 16px;
+    width: 100%;
+    height: 799px;
+    z-index: -1;
+    background-image: url("/img/TopBackground.png");
+}
+
+.top {
+    height: 597px;
+}
+
+.top-h1 {
+    margin-top: 67px;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.top-h2 {
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.top-p1 {
+    width: 955px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
+
+.top-p2 {
+    width: 955px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
+.btn-top-send {
+    width: 259px;
+    height: 63px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 118px;
+}
+
+.causes {
+    height: 900px;
+}
+
+.blackTitle {
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    margin: 0 auto;
+    margin-top: 79px;
+}
+
+.blackTitle p {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.causes h1 {
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222222;
+    text-transform: uppercase;
+    margin-top: 44px;
+    margin-bottom: 40px;
+}
+
+.cause  {
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #202020;
+    margin-bottom: 35px;
+    height: 142px;
+}
+
+.cause span {
+    font-size: 17px;
+    font-weight: normal;
+    color: #1eacc7;
+}
+
+.cause-4 {
+    margin-bottom: 35px; 
+    height: 142px;
+}
+
+.mobile {
+    height: 864px;
+    padding-top: 48px;
+}
+
+.titleBox {
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.titleBox p {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.mobile h1 {
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222222;
+    text-transform: uppercase;
+    margin-top: 38px;
+}
+
+.mobile h2 {
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222222;
+    margin-top: 19px;
+}
+
+.cards {
+    margin-top: 32px;
+}
+
+.card1 {
+    background-image: url("/img/card1.png");
+    width: 320px;
+    height: 280px;
+}
+
+.card1 p {
+    width: 267px;
+    height: 53px;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-top: 91px;
+}
+
+.card2 {
+    background-image: url("/img/card2.png");
+    width: 320px;
+    height: 280px;
+}
+
+.card2 p {
+    height: 21px;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-top: 91px;
+}
+
+.card3 {
+    background-image: url("/img/card3.png");
+    width: 320px;
+    height: 280px;
+}
+
+.card3 p {
+    width: 236px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-top: 91px;
+}
+
+.card4 {
+    background-image: url("/img/card4.png");
+    width: 320px;
+    height: 280px;
+}
+
+.card4 p {
+    width: 276px;
+    height: 17px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-top: 91px;
+}
+
+.card5 {
+    background-image: url("/img/card5.png");
+    width: 320px;
+    height: 280px;
+}
+
+.card5 p {
+    width: 205px;
+    height: 17px;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-top: 91px;
+}
+
+.card6 {
+    background-image: url("/img/card6.png");
+    width: 320px;
+    height: 280px;
+}
+
+.card6 p {
+    height: 52px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-top: 91px;
+}
+
+.carSection {
+    height: 895px;
+    position: relative;
+}
+
+.carSection .background {
+    height: 499px;
+    background-color: #070716;
+    padding-top: 56px;
+}
+
+.whiteTitle {
+    width: 112px;
+    height: 24px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.whiteTitle p {
+    font-size: 11px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.background h1 {
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+
+.background h2 {
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 19px;
+}
+
+.background img {
+    position: absolute;
+    top: 231px;
+    right: calc(50% - 379.5px);
+}
+
+.backgroundP  {
+    position: absolute;
+    top: 715px;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222222;
+    left: calc(50% - 148px);
+}
+
+.terms {
+    height: 800px;
+    margin-top: 68px;
+}
+
+.termsBlackTitle {
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.termsBlackTitle p {
+    font-size: 11px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    padding-top: 6px;
+    text-transform: uppercase;
+}
+
+.terms h1 {
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222222;
+    text-transform: uppercase;
+    margin-top: 33px;
+}
+
+.termsRow1 {
+    margin-top: 33px;
+}
+
+.termsH2 {
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+    font-size: 22px;
+    font-weight: normal;
+    color: #1ca8c3;
+}
+
+.termsH2 li {
+    list-style-image: url("/img/check1.png");
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.termsH2 p {
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.termsH2-red {
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+    font-size: 22px;
+    font-weight: normal;
+    color: #ff5656;
+}
+
+.termsH2-red li {
+    list-style-image: url("/img/check2.png");
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.termsH2-red p {
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.world {
+    height: 717px;
+    background-image: url("/img/World.png");
+    padding-top: 49px;
+}
+
+.whiteTitleWorld {
+    width: 76px;
+    height: 24px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.whiteTitleWorld p  {
+    width: 41px;
+    height: 10px;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #070716;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.world h1 {
+    width: 306px;
+    height: 27px;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.world h2 {
+    width: 294px;
+    height: 16px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.world h3 {
+    height: 14px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1fbad6;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 486px;
+}
+
+footer {
+    height: 100px;
+    position: relative;
+}
+
+.blue {
+    height: 100px;
+    width: 100%;
+    background-color: #070716;
+    position: absolute;
+    bottom: 0;
+}
+
+.blue p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.blue p span {
+    color: red;
+}
