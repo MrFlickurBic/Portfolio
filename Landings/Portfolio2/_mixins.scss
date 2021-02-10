@@ -1,0 +1,44 @@
+@mixin circle($size) {
+    &:before {
+        content: "";
+        display: inline-block;
+        width: $size;
+        height: $size;
+
+        background-color: $main-color;
+        border-radius: 30px;
+    }
+}
+
+@mixin line() {
+    background-color: $main-color;
+    width: 70px;
+    height: 4px;
+}
+
+@mixin h2Title() {
+    h2 {
+        font-weight: 700;
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+@mixin percentLineGrey() {
+    .grey {
+        position: absolute;
+        width: 350px;
+        height: 14px;
+        border-radius: 4px;
+        background-color: #e8e4de;
+    }
+}
+
+@mixin percentLineOrange($width) {
+    position: absolute;
+    z-index: 1;
+    width: $width;
+    height: 14px;
+    border-radius: 4px;
+    background-color: #ffa501;
+}

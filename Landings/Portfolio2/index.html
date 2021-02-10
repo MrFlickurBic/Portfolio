@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <span class="icon-cross" onclick="sidebarHandler()"></span>
+            <ul>
+                <li><a href="#about" onclick="sidebarHandler()">Про меня</a></li>
+                <li><a href="#experience" onclick="sidebarHandler()">Мой опыт</a></li>
+                <li><a href="#technology" onclick="sidebarHandler()">Мои навыки</a></li>
+                <li><a href="#portfolio" onclick="sidebarHandler()">Мои работы</a></li>
+                <li><a href="#price" onclick="sidebarHandler()">Прайс-лист</a></li>
+                <li><a href="#contact" onclick="sidebarHandler()">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <section id="main">
+                <img src="assets/img/Background.png" alt="Background icon">
+        
+                <div class="left-bar">
+                    <p>Социальные сети</p>
+                    <div class="row"></div>
+                    <a href="#" class="icon-github icon"></a>
+                    <a href="#" class="icon-instagram icon"></a>
+                    <a href="#" class="icon-facebook icon"></a>
+                </div>
+        
+                <div class="middle">
+                    <div class="first-line">
+                        <p>Меня зовут Александра Смит</p>
+                        <div class="circle"></div>
+                    </div>
+                    <h1>Я web-разработчик
+                        из города Москва</h1>
+                    <div class="buttons">
+                        <a href="#portfolio" id="openPortfolio" class="btn active" onclick="changeText()">
+                            <p>Портфолио</p>
+                        </a>
+                        <a href="#about" id="openMe" class="btn" onclick="changeText()">
+                            <p>Про меня</p>
+                        </a>
+                    </div>
+                </div>
+        
+                <span id="open-menu" class="icon-menu" onclick="sidebarHandler()"></span>
+            </section>
+            <section id="about">
+                <div class="photo">
+                    <img src="assets/img/Photo.png" alt="Photo">
+                </div>
+                <div class="text">
+                    <div class="first-title">
+                        <div class="circle"></div>
+                        <p>Про меня</p>
+                    </div>
+                    <h2>Меня зовут Александра</h2>
+                    <div class="line"></div>
+                    <p class="second-line">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum</p>
+        
+                    <div class="specialty">
+                        <div class="col">
+                            <div class="icon">
+                                <span class="icon-display"></span>
+                            </div>
+                            <div class="text">
+                                <p class="title">Web-разработка</p>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit doloribus
+                                    expedita obcaecati enim ullam, dolor dolorum?</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="icon">
+                                <span class="icon-mobile"></span>
+                            </div>
+                            <div class="text">
+                                <p class="title">Разработка приложений</p>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit doloribus
+                                    expedita obcaecati enim ullam, dolor dolorum?</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="icon">
+                                <span class="icon-laptop"></span>
+                            </div>
+                            <div class="text">
+                                <p class="title">UI/UX Design</p>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit doloribus
+                                    expedita obcaecati enim ullam, dolor dolorum?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="experience">
+                <div class="first-title">
+                    <div class="circle"></div>
+                    <p>Опыт</p>
+                </div>
+                <h2>Чем я буду полезна</h2>
+                <div class="row"></div>
+        
+                <div class="study">
+                    <div class="col">
+                        <canvas id="canvas1" width="52px" height="425px"></canvas>
+                        <h2>Образование</h2>
+                        <div class="block1" class="block">
+                            <div class="first-line">
+                                <div class="circle-block">
+                                    <div class="circle"></div>
+                                    <span class="icon-user-check"></span>
+                                </div>
+                                <div class="text">
+                                    <p class="title">МГТУ им. Н. Э. Баумана</p>
+                                    <p class="description">Диплом магистра | Москва (2014-2020)</p>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam blanditiis error, officiis eos ut
+                                sunt assumenda suscipit doloribus obcaecati optio hic quibusdam, necessitatibus sit? Soluta,
+                                aliquid earum! Repellendus, sed soluta.</p>
+                        </div>
+        
+                        <div class="block2" class="block">
+                            <div class="first-line">
+                                <div class="circle-block">
+                                    <div class="circle"></div>
+                                    <span class="icon-file"></span>
+                                </div>
+                                <div class="text">
+                                    <p class="title">Udemy</p>
+                                    <p class="description">Курсы по Web-разработке</p>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam blanditiis error, officiis eos ut
+                                sunt assumenda suscipit doloribus obcaecati optio hic quibusdam, necessitatibus sit? Soluta,
+                                aliquid earum! Repellendus, sed soluta.</p>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <canvas id="canvas2" width="52px" height="425px"></canvas>
+                        <h2>Опыт работы</h2>
+                        <div class="block1" class="block">
+                            <div class="first-line">
+                                <div class="circle-block">
+                                    <div class="circle"></div>
+                                    <span class="icon-display"></span>
+                                </div>
+                                <div class="text">
+                                    <p class="title">Front-End Developer</p>
+                                    <p class="description">EPAM | Москва (2018-2019)</p>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam blanditiis error, officiis eos ut
+                                sunt assumenda suscipit doloribus obcaecati optio hic quibusdam, necessitatibus sit? Soluta,
+                                aliquid earum! Repellendus, sed soluta.</p>
+                        </div>
+        
+                        <div class="block2" class="block">
+                            <div class="first-line">
+                                <div class="circle-block">
+                                    <div class="circle"></div>
+                                    <span class="icon-laptop"></span>
+                                </div>
+                                <div class="text">
+                                    <p class="title">UI/UX Designer</p>
+                                    <p class="description">Squad Team | Москва (2018)</p>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam blanditiis error, officiis eos ut
+                                sunt assumenda suscipit doloribus obcaecati optio hic quibusdam, necessitatibus sit? Soluta,
+                                aliquid earum! Repellendus, sed soluta.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section id="technology">
+                <div class="first-title">
+                    <div class="circle"></div>
+                    <p>Навыки</p>
+                </div>
+                <h2>Что я использую в работе</h2>
+                <div class="row"></div>
+        
+                <div class="cards">
+                    <div class="card">
+                        <img src="assets/svg/html5.svg" alt="Html 5">
+                        <p class="title">HTML5</p>
+        
+                        <p class="text">Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне
+                            создавать более SEO-оптимизированную структуру вашего продукта</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/svg/css3.svg" alt="Html 5">
+                        <p class="title">CSS3</p>
+        
+                        <p class="text">Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или
+                            приложения. Все ограничивается только вашей фантазией!</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/svg/JS.svg" alt="Html 5">
+                        <p class="title">Java Script</p>
+        
+                        <p class="text">Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки,
+                            вкладки, получение данных от сервера и многое другое</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/svg/Jquery.svg" alt="Html 5">
+                        <p class="title">jQuery</p>
+        
+                        <p class="text">Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект
+                            мы её не будем, но навык работы с ней присутствует</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/svg/React.svg" alt="Html 5">
+                        <p class="title">React</p>
+        
+                        <p class="text">Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально
+                            интерактивный продукт именно под ваши цели</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/svg/Node.js.svg" alt="Html 5">
+                        <p class="title">Node.js</p>
+        
+                        <p class="text">Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут
+                            выполнять действия, которые пользователь не видит</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/svg/Mongo.db.svg" alt="Html 5">
+                        <p class="title">Mongo.db</p>
+        
+                        <p class="text">Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="skills">
+                    <div class="col">
+                        <div class="first">
+                            <div class="title">
+                                <div class="circle"></div>
+                                <p>Создание сайтов</p>
+                            </div>
+                            <p class="percent">100%</p>
+                        </div>
+                        <div class="line">
+                            <div class="grey"></div>
+                            <div class="orange100"></div>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="first">
+                            <div class="title">
+                                <div class="circle"></div>
+                                <p>Создание приложений</p>
+                            </div>
+                            <p class="percent">85%</p>
+                        </div>
+                        <div class="line">
+                            <div class="grey"></div>
+                            <div class="orange85"></div>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="first">
+                            <div class="title">
+                                <div class="circle"></div>
+                                <p>Работа с данными</p>
+                            </div>
+                            <p class="percent">90%</p>
+                        </div>
+                        <div class="line">
+                            <div class="grey"></div>
+                            <div class="orange90"></div>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="first">
+                            <div class="title">
+                                <div class="circle"></div>
+                                <p>Креативность</p>
+                            </div>
+                            <p class="percent">75%</p>
+                        </div>
+                        <div class="line">
+                            <div class="grey"></div>
+                            <div class="orange75"></div>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="first">
+                            <div class="title">
+                                <div class="circle"></div>
+                                <p>Создание дизайна</p>
+                            </div>
+                            <p class="percent">90%</p>
+                        </div>
+                        <div class="line">
+                            <div class="grey"></div>
+                            <div class="orange90"></div>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="first">
+                            <div class="title">
+                                <div class="circle"></div>
+                                <p>Soft skills</p>
+                            </div>
+                            <p class="percent">95%</p>
+                        </div>
+                        <div class="line">
+                            <div class="grey"></div>
+                            <div class="orange95"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio">
+                <div class="first-title">
+                    <div class="circle"></div>
+                    <p>Портфолио</p>
+                </div>
+                <h2>Мои работы</h2>
+                <div class="row"></div>
+        
+                <div class="cards">
+                    <div class="card" id="project-card-1">
+                        <img src="assets/img/uber.png" alt="Uber card">
+                    </div>
+                    <div class="card" id="project-card-2">
+                        <img src="assets/img/pulse.png" alt="Pulse card">
+                    </div>
+                    <div class="card" id="project-card-3">
+                        <img src="assets/img/ipad.png" alt="iPad card">
+                    </div>
+                    <div class="card" id="project-card-4">
+                        <img src="assets/img/mac.png" alt="Mac card">
+                    </div>
+                    <div class="card" id="project-card-5">
+                        <img src="assets/img/bread.png" alt="Bread card">
+                    </div>
+                    <div class="card" id="project-card-6">
+                        <img src="assets/img/plans.png" alt="plans card">
+                    </div>
+                </div>
+            </section>
+            <section id="price">
+                <div class="first-title">
+                    <div class="circle"></div>
+                    <p>Прайс-лист</p>
+                </div>
+                <div class="row"></div>
+        
+                <div class="cards">
+                    <div class="card">
+                        <div class="first-line">
+                            <div class="left">
+                                <div class="circle"></div>
+                                <h3>Landing-page</h3>
+                            </div>
+                            <p>от 8000 руб.</p>
+                        </div>
+                        <p>Одностраничный сайт для презентации услуг/товаров/...</p>
+                    </div>
+                    <div class="card">
+                        <div class="first-line">
+                            <div class="left">
+                                <div class="circle"></div>
+                                <h3>Корпоративный сайт</h3>
+                            </div>
+                            <p>от 20000 руб.</p>
+                        </div>
+                        <p>Сайт для вашего бизнеса или компании</p>
+                    </div>
+                    <div class="card">
+                        <div class="first-line">
+                            <div class="left">
+                                <div class="circle"></div>
+                                <h3>Интернет-магазин</h3>
+                            </div>
+                            <p>от 30000 руб.</p>
+                        </div>
+                        <p>Инструмент для ваших продаж в сети</p>
+                    </div>
+                    <div class="card">
+                        <div class="first-line">
+                            <div class="left">
+                                <div class="circle"></div>
+                                <h3>Web-приложение</h3>
+                            </div>
+                            <p>от 28000 руб.</p>
+                        </div>
+                        <p>Приложение внутри браузера для лучшего комфорта</p>
+                    </div>
+                    <div class="card">
+                        <div class="first-line">
+                            <div class="left">
+                                <div class="circle"></div>
+                                <h3>Android/IOS Приложение</h3>
+                            </div>
+                            <p>от 25000 руб.</p>
+                        </div>
+                        <p>Приложение для смартфона любой ОС</p>
+                    </div>
+                    <div class="card">
+                        <div class="first-line">
+                            <div class="left">
+                                <div class="circle"></div>
+                                <h3>Android/IOS Приложение</h3>
+                            </div>
+                            <p>Индивидуально</p>
+                        </div>
+                        <p>Создам дизайн для вашего сайта/приложения...</p>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <img src="assets/img/Photo2.png" alt="Photo 2">
+        
+                <div>
+                    <div class="first-title">
+                        <div class="circle"></div>
+                        <p>Контакты</p>
+                    </div>
+                    <h2>Свяжитесь со мной</h2>
+                    <div class="row"></div>
+                    <p class="second-line">Любым удобным для вас способом:</p>
+        
+                    <div class="links">
+                        <a href="#" class="icon-facebook"></a>
+                        <a href="#" class="icon-telegram"></a>
+                        <a href="#" class="icon-instagram"></a>
+                    </div>
+        
+                    <p class="third-line">Или оставьте ваши данные и я сама вам напишу:</p>
+        
+                    <form action="#">
+                        <div class="input-line">
+                            <div class="input">
+                                <div class="left"></div>
+                                <div class="right"></div>
+                                <div class="bottom"></div>
+                                <p class="title">Имя</p>
+        
+                                <input type="text" class="first">
+                            </div>
+        
+                            <div class="input input2">
+                                <div class="left"></div>
+                                <div class="right"></div>
+                                <div class="bottom"></div>
+                                <p class="title">Ваша почта</p>
+        
+                                <input type="text" class="first">
+                            </div>
+                        </div>
+        
+                        <div class="inputMessage">
+                            <div class="left"></div>
+                            <div class="right"></div>
+                            <div class="bottom"></div>
+                            <p class="title">Ваше сообщение</p>
+        
+                            <input type="text" class="first">
+                        </div>
+        
+                        <button>
+                            <p>Отправить сообщение</p>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+<link rel="stylesheet" href="css/svgs.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+<script src="js/index.js"></script>
+
+</html>
