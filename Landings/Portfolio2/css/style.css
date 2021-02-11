@@ -860,6 +860,51 @@ h2 {
   .left-bar {
     display: none !important;
   }
+
+  #about {
+    grid-template-columns: 400px;
+  }
+
+  .specialty {
+    grid-template-columns: 260px !important;
+  }
+
+  .study {
+    grid-template-columns: 425px !important;
+    width: 425px !important;
+  }
+
+  #portfolio .cards {
+    grid-template: repeat(6, 280px)/280px !important;
+    grid-template-areas: "uber" "pulse" "ipad" "mac" "bread" "plans" !important;
+    width: 280px !important;
+  }
+
+  #technology .cards {
+    width: 270px !important;
+  }
+
+  #price .cards {
+    grid-template: repeat(3, 55px)/358px !important;
+    width: 358px;
+  }
+
+  #contact {
+    grid-template-columns: 400px !important;
+    width: 400px;
+  }
+  #contact .input-line {
+    flex-direction: column;
+  }
+  #contact .inputMessage {
+    width: 400px !important;
+  }
+  #contact .inputMessage .right {
+    width: 230px !important;
+  }
+  #contact .inputMessage input {
+    width: 370px !important;
+  }
 }
 @media (max-width: 555px) {
   .middle {
