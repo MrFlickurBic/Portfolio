@@ -861,3 +861,12 @@ h2 {
     display: none !important;
   }
 }
+@media (max-width: 425px) {
+  .middle {
+    left: 15px !important;
+  }
+  .middle h1 {
+    font-size: 30px !important;
+    width: 400px !important;
+  }
+}
