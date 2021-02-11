@@ -906,7 +906,7 @@ h2 {
     width: 370px !important;
   }
 }
-@media (max-width: 555px) {
+@media (max-width: 700px) {
   .middle {
     left: 15px !important;
   }
