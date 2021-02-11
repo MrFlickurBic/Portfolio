@@ -1,6 +1,10 @@
 @media (max-width: 910px) {
   .middle {
-    left: 10% !important;
+    left: 15px !important;
+  }
+  .middle h1 {
+    font-size: 30px !important;
+    width: 400px !important;
   }
 
   .left-bar {
@@ -50,14 +54,5 @@
   }
   #contact .inputMessage input {
     width: 370px !important;
-  }
-}
-@media (max-width: 700px) {
-  .middle {
-    left: 15px !important;
-  }
-  .middle h1 {
-    font-size: 30px !important;
-    width: 400px !important;
   }
 }
